@@ -18,6 +18,7 @@ pipeline{
          sh "mvn clean package"
        }
      }
+     /*
      stage('3codeQuality'){
        steps{
          sh "echo 'Performing CodeQualityAnalysis' "
@@ -61,4 +62,5 @@ Landmark
 +237 679 465 719''', recipientProviders: [buildUser(), developers()], subject: 'Success', to: 'fintech-team@gmail.com'
        }
    }
+   */
 }
